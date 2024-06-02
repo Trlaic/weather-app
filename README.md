@@ -2,6 +2,9 @@
 
 Ova aplikacija omogućava korisnicima da pretražuju vremensku prognozu za različite lokacije koristeći OpenWeather API servis u pozadini. Aplikacija takođe pruža predviđanje vremenskih uslova za narednih 7 dana.
 
+![Primer pretrage](src/assets/example.jpg)
+
+
 ## Karakteristike
 
 - Pretraga trenutne vremenske prognoze za bilo koju lokaciju
