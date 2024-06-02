@@ -11,6 +11,7 @@ import { ReactComponent as SplashIcon } from './assets/splash-icon.svg';
 import Logo from './assets/logo.png';
 import ErrorBox from './components/Reusable/ErrorBox';
 import { ALL_DESCRIPTIONS } from './utilities/DateConstants';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 import {
   getTodayForecastWeather,
@@ -191,6 +192,20 @@ function App() {
             />
 
             <UTCDatetime />
+            <Link
+              href="https://github.com/ksaraa"
+              target="_blank"
+              underline="none"
+              sx={{ display: 'flex' }}
+            >
+              <GitHubIcon
+                sx={{
+                  fontSize: { xs: '20px', sm: '22px', md: '26px' },
+                  color: 'white',
+                  '&:hover': { color: '#2d95bd' },
+                }}
+              />
+            </Link>
           </Box>
           <Search onSearchChange={searchChangeHandler} />
         </Grid>
